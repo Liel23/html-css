@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+            font-family: 'Idroid';
+            src: url('fontes/idroid.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body{
+            background-color: #84E1AD;
+        }
+
+        header{
+            background: linear-gradient(to bottom, #6fbc90, #04672d);
+            height: 180px;
+            margin: -20px;
+            box-shadow: -1px 2px 11px 0px black;
+        }
+
+        header>h1{
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+
+        header>p{
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        header>nav{
+            padding-left: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        a:hover{
+            background-color: #6fbc90;
+        }
+
+        main{
+            background-color: white;
+            width: 700px; 
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 0px 0px 8px 8px;
+            box-shadow: 0px 3px 9px black;
+        }
+
+        .droid{
+            font-family: Idroid;
+        }
+
+        h1{
+            color: green;
+            padding: 15px;
+        }
+
+        h2{
+            color: green;
+            font-family: Idroid;
+            font-size: 18px;
+            padding-left: 6px;
+            margin-left: 20px;
+            background-color: #68bb8b56;
+        }
+
+        #bgco{
+            background-color: #2FA866;
+            margin: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        section>h3{
+            color: white;
+            padding-left: 15px;
+            font-size: 17px;
+        }
+
+        .boxmais{
+            text-align: justify;
+            text-indent: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+        }
+
+        #mais{
+            background-color: #C5EBD6;
+            margin: 20px;
+            margin-top: -20px;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        .materia{
+            text-align: justify;
+            text-indent: 35px;
+            margin: 20px;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        picture{
+            display: block;
+        }
+
+        picture>img{
+            display: block;
+            max-width: 100%;
+        }
+
+        #hand{
+            display: block;
+            max-width: 100%;
+            padding-left: 200px;
+        }
+
+        #videobg{
+            background-color: green;
+            box-shadow: 1px 2px 9px black;
+            padding: 20px;
+            padding-left: 60px;
+            padding-right: 80px;
+        }
+
+        iframe{
+            display: block;
+            margin: 15px;
+        }
+
+        footer{
+            background-color: green;
+            margin-bottom: -16px;
+            margin-left: -8px;
+            margin-right: -9px;
+        }
+
+        footer>p{
+            text-align: center;
+            color: white;
+        }
